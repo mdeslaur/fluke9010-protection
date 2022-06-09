@@ -1,0 +1,7 @@
+This project uses the following libraries:
+
+fluke9010-protection-cache.lib
+DIP-26_W15.24mm_Socket_LongPads.kicad_mod
+
+It contains the symbols for a 26 pin socket that I created by modifying an
+existing KiCad one.

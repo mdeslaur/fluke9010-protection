@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>${KIPRJMOD}/fluke9010-protection.sch</source>
+    <date>Sun 29 May 2022 02:14:37 PM</date>
+    <tool>Eeschema 5.1.12-84ad8e8a86~92~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Fluke 9010a Protection Module</title>
+        <company>Marc Deslauriers</company>
+        <rev>v1.0</rev>
+        <date>2022-05-29</date>
+        <source>fluke9010-protection.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>26 Pin DIP header</value>
+      <footprint>fluke9010-protection:DIP-26_W15.24mm_Socket_LongPads</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x13_Counter_Clockwise" description="Generic connector, double row, 02x13, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6293814C</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <fields>
+        <field name="JLC">SOT-23</field>
+        <field name="LCSC">BAV99,215</field>
+      </fields>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62940961</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <fields>
+        <field name="JLC">SOT-23</field>
+        <field name="LCSC">BAV99,215</field>
+      </fields>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62940D8F</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <fields>
+        <field name="JLC">SOT-23</field>
+        <field name="LCSC">BAV99,215</field>
+      </fields>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629413A0</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <fields>
+        <field name="JLC">SOT-23</field>
+        <field name="LCSC">BAV99,215</field>
+      </fields>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62941A8F</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <fields>
+        <field name="JLC">SOT-23</field>
+        <field name="LCSC">BAV99,215</field>
+      </fields>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62942068</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <fields>
+        <field name="JLC">SOT-23</field>
+        <field name="LCSC">BAV99,215</field>
+      </fields>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62943DA4</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <fields>
+        <field name="JLC">SOT-23</field>
+        <field name="LCSC">BAV99,215</field>
+      </fields>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6294422F</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <fields>
+        <field name="JLC">SOT-23</field>
+        <field name="LCSC">BAV99,215</field>
+      </fields>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629449DF</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">0603WAF1000T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629690B9</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">0603WAF1000T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6296BC20</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>3.01K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">0603WAF3011T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6296C4AE</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>3.01K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">0603WAF3011T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6296D290</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">0603WAF1000T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6296DAFE</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>3.01K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">0603WAF3011T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6296E0AA</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">0603WAF1000T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6297022D</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>3.01K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">0603WAF3011T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62970859</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">0603WAF1000T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62970E03</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>3.01K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">0603WAF3011T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629714A0</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">0603WAF1000T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62971A7D</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>3.01K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">0603WAF3011T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62973624</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">0603WAF1000T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629739AC</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>3.01K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">0603WAF3011T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6297539A</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">0603WAF1000T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629757E2</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>3.01K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">0603WAF3011T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629769F8</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>280K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">0603WAF2803T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62A032FE</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>280K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">0603WAF2803T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62A0411D</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>280K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">0603WAF2803T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62A04AB7</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>280K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">0603WAF2803T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62A05AC2</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>280K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">0603WAF2803T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62A06501</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>280K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">0603WAF2803T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62A06989</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>280K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">0603WAF2803T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6294C979</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>280K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">0603WAF2803T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62952065</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_02x13_Counter_Clockwise">
+      <description>Generic connector, double row, 02x13, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x13_Counter_Clockwise</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="BAV99">
+      <description>BAV99 High-speed switching diodes, SOT-23</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAV99</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+        <pin num="3" name="K" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/usr/share/kicad/library/Diode.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/U7">
+      <node ref="R18" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="J1" pin="22"/>
+      <node ref="R28" pin="2"/>
+    </net>
+    <net code="2" name="/U6">
+      <node ref="R17" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R27" pin="2"/>
+      <node ref="J1" pin="12"/>
+    </net>
+    <net code="3" name="/U5">
+      <node ref="R6" pin="2"/>
+      <node ref="J1" pin="26"/>
+      <node ref="R26" pin="2"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="4" name="/U0">
+      <node ref="R21" pin="2"/>
+      <node ref="J1" pin="15"/>
+      <node ref="R1" pin="2"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="5" name="/U4">
+      <node ref="R25" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="6" name="/U2">
+      <node ref="J1" pin="13"/>
+      <node ref="R23" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="7" name="/U3">
+      <node ref="R4" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="R14" pin="2"/>
+      <node ref="R24" pin="2"/>
+    </net>
+    <net code="8" name="/U1">
+      <node ref="R22" pin="2"/>
+      <node ref="J1" pin="14"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="9" name="/PWR+">
+      <node ref="D4" pin="2"/>
+      <node ref="D8" pin="2"/>
+      <node ref="R24" pin="1"/>
+      <node ref="R25" pin="1"/>
+      <node ref="R27" pin="1"/>
+      <node ref="R28" pin="1"/>
+      <node ref="R22" pin="1"/>
+      <node ref="R21" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="D7" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="R23" pin="1"/>
+      <node ref="R26" pin="1"/>
+      <node ref="J1" pin="4"/>
+      <node ref="D5" pin="2"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="10" name="/PWR-">
+      <node ref="D6" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="D8" pin="1"/>
+      <node ref="J1" pin="23"/>
+      <node ref="D5" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="11" name="/B4">
+      <node ref="J1" pin="6"/>
+      <node ref="D5" pin="3"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="12" name="/L3">
+      <node ref="J1" pin="3"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="13" name="/L2">
+      <node ref="R13" pin="1"/>
+      <node ref="J1" pin="9"/>
+    </net>
+    <net code="14" name="/L1">
+      <node ref="R12" pin="1"/>
+      <node ref="J1" pin="19"/>
+    </net>
+    <net code="15" name="/L0">
+      <node ref="R11" pin="1"/>
+      <node ref="J1" pin="16"/>
+    </net>
+    <net code="16" name="/L4">
+      <node ref="R15" pin="1"/>
+      <node ref="J1" pin="7"/>
+    </net>
+    <net code="17" name="/B0">
+      <node ref="R1" pin="1"/>
+      <node ref="D1" pin="3"/>
+      <node ref="J1" pin="17"/>
+    </net>
+    <net code="18" name="/B1">
+      <node ref="D2" pin="3"/>
+      <node ref="J1" pin="18"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="19" name="/B2">
+      <node ref="J1" pin="8"/>
+      <node ref="R3" pin="1"/>
+      <node ref="D3" pin="3"/>
+    </net>
+    <net code="20" name="/B3">
+      <node ref="R4" pin="1"/>
+      <node ref="D4" pin="3"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="21" name="/L7">
+      <node ref="R18" pin="1"/>
+      <node ref="J1" pin="24"/>
+    </net>
+    <net code="22" name="/B7">
+      <node ref="D8" pin="3"/>
+      <node ref="J1" pin="21"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="23" name="/L6">
+      <node ref="J1" pin="11"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="24" name="/B6">
+      <node ref="R7" pin="1"/>
+      <node ref="D7" pin="3"/>
+      <node ref="J1" pin="10"/>
+    </net>
+    <net code="25" name="/L5">
+      <node ref="R16" pin="1"/>
+      <node ref="J1" pin="25"/>
+    </net>
+    <net code="26" name="/B5">
+      <node ref="D6" pin="3"/>
+      <node ref="J1" pin="20"/>
+      <node ref="R6" pin="1"/>
+    </net>
+  </nets>
+</export>
